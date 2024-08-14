@@ -1,4 +1,4 @@
-Live Preview -> 
+Live Preview -> https://luis-rodriguez-02.github.io/odin-landing-page/
 
 
 CSS Foundations Landing Page Project
