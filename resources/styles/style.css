@@ -166,28 +166,54 @@ img {
 .main4 {
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: 75vw;
 }
 .main4-content {
   background-color: #3882f6;
-  width: 75vw;
+  width: 60vw;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px 50px;
+  border-radius: 5px;
 }
 
 .main4 p {
   padding-bottom: 10px;
-  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
 }
 
-.main4 span {
-  align-self: flex-end;
+.main4 h2 {
+  align-self: flex-start;
+  text-align: center;
 }
+
 .main4 button {
+  color: white;
+  font-weight: bold;
+  text-align: center;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 3px;
-  padding: 10px;
+  width: 85px;
+  height: 25px;
+  padding: 5px;
+}
+
+.footer {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
